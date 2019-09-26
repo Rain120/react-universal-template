@@ -4,7 +4,7 @@ import './App.less';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <ul>
         <li>
           <Link to='/'>Profile</Link>
@@ -15,9 +15,9 @@ const App: React.FC = () => {
         <li>
           <Link to='/not-found'>NotFound</Link>
         </li>
-        </ul>
+      </ul>
     </div>
   );
-}
+};
 
 export default App;

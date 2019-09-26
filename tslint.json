@@ -5,14 +5,24 @@
     "object-literal-sort-keys": false
   },
   "linterOptions": {
-    "exclude": ["config/*/**/", "node_modules"]
+    "exclude": [
+      "config/*/**/",
+      "node_modules",
+      "src/*.ts"
+    ]
   },
   "rules": {
     "class-name": true,
     "eofline": true,
     "forin": true,
+    "interface-name": false,
     "jsdoc-format": false,
+    "jsx-boolean-value": [false, "never"],
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-string-ref": false,
     "label-position": true,
+    "member-access": [true, "no-public"],
     "member-ordering": [
       true,
       {
@@ -30,15 +40,14 @@
     "no-duplicate-variable": true,
     "no-eval": true,
     "no-internal-module": true,
-    "no-multi-spaces": true,
-    "no-namespace": true,
+    "no-namespace": false,
     "no-reference": true,
     "no-shadowed-variable": true,
     "no-string-literal": true,
     "no-trailing-whitespace": true,
     "no-unused-expression": true,
     "no-var-keyword": true,
-    "object-curly-spacing": [true, "always"],
+    "ordered-imports": false,
     "object-literal-sort-keys": false,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "prefer-const": [
@@ -47,8 +56,10 @@
         "destructuring": "all"
       }
     ],
+    "quotemark": [true, "single"],
     "radix": true,
-    "space-in-parens": true,
+    "space-in-parens": false,
+    "semicolon": [false],
     "switch-default": true,
     "trailing-comma": [
       true,
@@ -78,10 +89,6 @@
     ],
     "use-isnan": true,
     "variable-name": [true, "allow-leading-underscore", "ban-keywords", "check-format", "allow-pascal-case"],
-    "jsx-no-lambda": false,
-    "jsx-no-string-ref": false,
-    "jsx-boolean-value": [true, "never"],
-    "jsx-no-multiline-js": false,
     "whitespace": [
       true,
       "check-branch",
