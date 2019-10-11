@@ -18,10 +18,13 @@
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
+    "resolveJsonModule": true,
     "paths": {
-      "src": ["src"],
+      "apis": ["apis"],
+      "base": ["base"],
       "components": ["components"],
       "common": ["common"],
+      "src": ["src"],
       "routes": ["routes"]
     }
   },
