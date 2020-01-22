@@ -86,11 +86,6 @@
       "jest-watch-typeahead/testname"
     ]
   },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
   "lint-staged": {
     "{src}/**/*.{ts,tsx}": [
       "npm run lint-staged:ts",
@@ -114,7 +109,9 @@
     "react-router-dom": "^5.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.6.0",
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@svgr/webpack": "4.3.2",
@@ -132,8 +129,8 @@
     "babel-preset-react-app": "^9.0.2",
     "camelcase": "^5.2.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
-    "css-loader": "2.1.1",
     "conventional-changelog-cli": "^2.0.25",
+    "css-loader": "2.1.1",
     "dotenv": "6.2.0",
     "dotenv-expand": "5.1.0",
     "eslint": "^6.1.0",
