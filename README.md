@@ -6,23 +6,42 @@
 
 ## 😚 Welcome
 
-Welcome to the React Universal Template.
+<div style="font-size: 20px;">Welcome to the React Universal Template.</div>
 
 </div>
 
-#### TL;DR
+<!-- #### TL;DR
 
-To be Continue...
+To be Continue... -->
 
 #### ✍ Why am I doing this?
 
-- Learn **React knowledge**, **Hooks** etc.
-- Learning something about the **cosmetics**.
+- Design a **react universal template** for my react learn or demo.
+
+- Training how to design a **React Framework**.
 
 
 #### 🔨 Usage
 
-To be Continue...
+**Download**
+
+- [x] react + typescript + router
+
+```sh
+git clone git@github.com:Rain120/react-universal-template.git
+
+```
+
+**Start**
+
+```sh
+
+cd react-universal-template
+
+npm install
+
+```
+
 
 #### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
@@ -30,11 +49,17 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 #### 🔗 Links
 
-To be Continue...
+- [x] [react + typescript + router](https://github.com/Rain120/react-universal-template)
+
+- [ ] react + webpack + typescript + router
+
+- [ ] react + mobx + typescript + router
+
+**Question: How to use it? 👆👆👆**
 
 #### 👨‍🏭 Author
 
-> Front-End development engineer, technology stack: React + Typescript + Mobx, also used Vue + Vuex for a while
+> Front-End development engineer, technology stack: React + Typescript + Mobx (95%), also used Vue + Vuex (5%)for a while
 
 - [Github](https://github.com/Rain120)
 - [知乎](https://www.zhihu.com/people/yan-yang-nian-hua-120/activities)
