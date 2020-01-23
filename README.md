@@ -25,7 +25,7 @@ To be Continue... -->
 
 **Download**
 
-- [x] react + typescript + router
+- [x] react + webpack + typescript + router
 
 ```sh
 git clone git@github.com:Rain120/react-universal-template.git
@@ -49,11 +49,9 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 #### 🔗 Links
 
-- [x] [react + typescript + router](https://github.com/Rain120/react-universal-template)
+- [x] [react + webpack + typescript + router](https://github.com/Rain120/react-universal-template)
 
-- [ ] react + webpack + typescript + router
-
-- [ ] react + mobx + typescript + router
+- [ ] [react + webpack + mobx + typescript + router]()
 
 **Question: How to use it? 👆👆👆**
 
