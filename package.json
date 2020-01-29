@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/Rain120/react-universal-template/"
   },
+  "authors": [
+    "Rain120 https://github.com/Rain120"
+  ],
   "keywords": [
     "react",
     "template",

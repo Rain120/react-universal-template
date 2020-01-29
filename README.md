@@ -1,12 +1,13 @@
-<h3 align="center">
-  <a href="https://github.com/Rain120/react-universal-template">React Universal Template</a>
+<h3 align='center'>
+  <a href='https://github.com/Rain120/react-universal-template'>React Universal Template</a>
+  <img align='center' src='./template.png' alt='template' />
 </h3>
 
-<div align="center">
+<div align='center'>
 
 ## 😚 Welcome
 
-<div style="font-size: 20px;">Welcome to the React Universal Template.</div>
+<div style='font-size: 20px;'>Welcome to the React Universal Template.</div>
 
 </div>
 
